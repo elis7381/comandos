@@ -1,0 +1,30 @@
+git init: Este comando é usado para inicializar um novo repositório Git em um diretório local. 
+Ele cria um novo subdiretório chamado .git, que contém todos os metadados necessários para o repositório.
+
+git clone [url]: O comando git clone é usado para clonar um repositório Git existente para o seu diretório local.
+ Você fornece a URL do repositório que deseja clonar e o Git faz uma cópia local de todos os arquivos e histórico de
+ commits.
+
+git add [file]: Este comando é usado para adicionar um arquivo ou diretório ao próximo commit.
+ Você pode especificar arquivos individualmente ou usar git add . para adicionar todos os arquivos no diretório atual.
+
+git commit -m "[message]": O comando git commit registra as mudanças no repositório. A opção -m permite
+ adicionar uma mensagem de commit, que descreve as alterações feitas no commit.
+
+git push: Este comando é usado para enviar os commits locais para o repositório remoto.
+ Ele atualiza o repositório remoto com as alterações que você fez no seu repositório local.
+
+git pull: O comando git pull é usado para atualizar o repositório local com as últimas alterações do repositório remoto.
+ Ele combina automaticamente as alterações do repositório remoto na sua branch local.
+
+git branch: Este comando lista todas as branches no repositório local. Ele mostra todas as branches disponíveis e destaca
+ a branch atual com um asterisco.
+
+git checkout [branch]: O comando git checkout é usado para mudar para uma branch específica. Você pode alternar
+ entre branches existentes ou criar uma nova branch usando este comando.
+
+git merge [branch]: Este comando é usado para mesclar uma branch específica na branch atual. 
+Ele combina as alterações da branch especificada na branch atual.
+
+git status: O comando git status exibe o estado atual do repositório. Ele mostra informações sobre arquivos modificados,
+ adicionados ou removidos, e também indica se existem alterações pendentes para serem commitadas.
